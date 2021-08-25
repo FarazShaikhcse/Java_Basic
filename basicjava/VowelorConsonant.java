@@ -26,5 +26,6 @@ public class VowelorConsonant {
 			}
 		}
 		System.out.println(alphabet+" is consonant");
+		scanner.close();
 	}
 }

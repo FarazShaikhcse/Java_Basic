@@ -26,7 +26,7 @@ public class LargestofNumbers {
         {
             System.out.println("Largest number is:"+c);
         }
-        return ;
+        scanner.close();
  
     }
 }

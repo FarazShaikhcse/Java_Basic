@@ -11,11 +11,13 @@ public class HarmonicNumber {
 		n=scanner.nextInt();
 		if(n<=0) {
 			System.out.println("Give positive integer as input");
+			scanner.close();
 			return;
 		}
 		for(int i=1;i<=n;i++) {
 			sum+=(double) 1/i;
 		}
 		System.out.println("harmonic value is "+String.format("%.2f",sum));
+		scanner.close();
 	}
 }
