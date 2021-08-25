@@ -20,5 +20,6 @@ public class PrimeFactors {
 	if ( div == number) {
 		System.out.println(number + " is a prime number and cannot be factorized");
 	}
+	scanner.close();
 	}
 }

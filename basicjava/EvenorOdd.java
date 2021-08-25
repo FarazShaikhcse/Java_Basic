@@ -15,6 +15,7 @@ public class EvenorOdd {
 			System.out.println(number+" is even");
 		else
 			System.out.println(number+" is odd");
+		scanner.close();
 			
 	}
 }

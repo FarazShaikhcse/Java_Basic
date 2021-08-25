@@ -13,5 +13,6 @@ public class Powerof2 {
 			System.out.println("2^"+i+"="+(int)Math.pow(2,i));
 			
 		}
+		
 	}
 }

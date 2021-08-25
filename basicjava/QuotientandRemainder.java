@@ -18,6 +18,7 @@ public class QuotientandRemainder {
 			
 			System.out.println("Quotient="+ quotient);
 			System.out.println("Remainder="+String.format("%.3f", remainder));
+			scanner.close();
 		}
 			
 			

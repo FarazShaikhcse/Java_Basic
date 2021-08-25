@@ -16,6 +16,7 @@ public class SwapNumbers {
 		a=b;
 		b=temp;
 		System.out.println("After swapping values are\n a= "+a+" and b= "+b);
+		scanner.close();
 		
 	
 	}
